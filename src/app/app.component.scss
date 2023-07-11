@@ -1,0 +1,197 @@
+.contenedorTot{
+  display: flex;
+}
+
+.contenerPequeño{
+  background-color: #FAFBFD;
+  width: 17%;
+  margin-top: -8px;
+}
+
+.contenedorGrande{
+  padding-left: 7%;
+  width: 100%;
+}
+
+.logo{
+  margin: 30px 40px;
+}
+
+.secondaryText{
+  font-family:  'Noto Sans', 'JP';
+  color: #9E9E9E;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.primaryText{
+  font-family:  'Noto Sans', 'JP';
+  font-weight: 700;
+  font-size: 12px;
+
+}
+
+.title{
+  color: var(--gray-2, #4F4F4F);
+  font-family:  'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 18px;
+
+}
+
+.content{
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.input{
+  width: 150px;
+  height: 19px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--gray-3, #828282);
+  padding: 14px;
+
+}
+
+::ng-deep .input::placeholder{
+  margin-left: 2px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+}
+
+.contenedorInputs{
+  display: grid;
+  grid-template-columns: repeat(3, 268px);
+  justify-content: start;
+  // margin-top: 39px;
+}
+
+.contenedorInputs-2{
+  display: grid;
+  grid-template-columns: repeat(2, 340px);
+  justify-content: start;
+}
+
+.label{
+  font-size: 11px;
+  font-weight: 700;
+  font-family: 'Noto Sans', 'JP';
+}
+
+.inputs{
+  margin-top: 30px;
+}
+
+.border-red{
+  border-color: #E06F6F;
+}
+
+.border-blue{
+  border-color: #799DFF;
+}
+
+.border-black{
+  border-color: #333333;
+}
+
+.color-letter-blue{
+  color: #799DFF;
+}
+
+.color-letter-red{
+  color: #E06F6F;
+}
+
+.disabled-mode{
+  background-color: #F2F2F2;
+  border-color: #E0E0E0;
+}
+
+p.secondaryText{
+  margin-bottom: 24px;
+}
+
+.message-alert{
+  font-family: 'Noto Sans', 'JP';
+  color: #E06F6F;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.message-normal{
+  font-family: 'Noto Sans', 'JP';
+  color: #848484;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.inputCall{
+  background-image: url(../assets/img/call_FILL1_wght400_GRAD0_opsz48.png);
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  background-size: 18px;
+
+}
+
+.inputLock{
+  background-image: url(../assets/img/lock_FILL1_wght400_GRAD0_opsz48.png);
+  background-repeat: no-repeat;
+  background-position: 150px center;
+  background-size: 18px;
+
+}
+
+::ng-deep .inputCall::placeholder{
+  padding-left: 20px;
+
+}
+
+.peq{
+  height: 7px !important;
+}
+
+.big{
+  width: 1100px !important;
+}
+
+.divGrande{
+  margin-top: 55px;
+}
+
+.ancho{
+  height: 100px;
+}
+
+.anchoInp{
+  margin-top: 50px;
+}
+
+.nombre{
+  margin-top: 40px;
+  display:flex;
+}
+
+::ng-deep .ancho::placeholder{
+  padding-top: 0px !important;
+
+
+}
+
+.negrita{
+  font-family:  'Noto Sans', 'JP';
+  color: #9E9E9E;
+  font-weight: 700;
+  font-size: 14px;
+
+}
+
+b.negrita{
+  margin-bottom: 24px;
+  margin-top: 15px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
